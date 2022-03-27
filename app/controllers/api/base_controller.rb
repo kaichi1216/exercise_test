@@ -1,4 +1,5 @@
 class Api::BaseController < ApplicationController
+  skip_forgery_protection
   before_action :raise_limit_request
 
   #raise limit 60 requests per minute
