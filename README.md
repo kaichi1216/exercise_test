@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version 2.6.6
 
-Things you may want to cover:
+* Rails version 6.1.5
 
-* Ruby version
+# Exercise A
 
-* System dependencies
+**Mission**
 
-* Configuration
+`Build an Raise Limit Server to Server the incomming request`
 
-* Database creation
+**Result Description**
 
-* Database initialization
+` Use redis to store request ip and set requests limit 60 per minute，if requests is meet threshold，than server will return status 429 and response message is tell you "You have fired too many requests. Please wait for a couple of minutes."`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
